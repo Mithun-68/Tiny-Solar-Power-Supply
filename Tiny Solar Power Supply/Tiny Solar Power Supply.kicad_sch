@@ -20,7 +20,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U1"
-				(at 20.32 10.16 0)
+				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "AP3015AKTR-G1"
-				(at 20.32 7.62 0)
+				(at 20.32 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -40,7 +40,7 @@
 				)
 			)
 			(property "Footprint" "SOT23-5_1P55X2P9_DIO"
-				(at -4.826 4.572 0)
+				(at 0 3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -52,7 +52,7 @@
 				)
 			)
 			(property "Datasheet" "AP3015AKTR-G1"
-				(at -1.016 -9.398 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -165,8 +165,10 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 1.27 180)
+			)
+			(symbol "AP3015AKTR-G1_1_1"
+				(pin output line
+					(at 0 0 0)
 					(length 7.62)
 					(name "SW"
 						(effects
@@ -183,8 +185,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 40.64 -6.35 180)
+				(pin power_in line
+					(at 0 -2.54 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -201,8 +203,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
+				(pin input line
+					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "FB"
 						(effects
@@ -219,8 +221,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -3.81 0)
+				(pin input line
+					(at 40.64 -2.54 180)
 					(length 7.62)
 					(name "SHDN"
 						(effects
@@ -237,8 +239,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin input line
+					(at 40.64 0 180)
 					(length 7.62)
 					(name "VIN"
 						(effects
@@ -248,6 +250,407 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ASPI-0630LR-100M-T15:ASPI-0630LR-100M-T15"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L1"
+				(at 7.62 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ASPI-0630LR-100M-T15"
+				(at 7.62 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "IND_ASPI-0630LR_ABR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "ASPI-0630LR-100M-T15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ASPI-0630LR-100M-T15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "IND_ASPI-0630LR_ABR IND_ASPI-0630LR_ABR-M IND_ASPI-0630LR_ABR-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASPI-0630LR-100M-T15_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 2.5344)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 6.35 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.89 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.43 2.5344)
+					(end 12.7 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ASPI-0630LR-100M-T15_1_2"
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 11.43)
+					(end -1.27 12.7)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 6.35)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -2.5344 3.81)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1116,397 +1519,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Schottky IND_ASPI-0630LR_ABR:ASPI-0630LR-100M-T15"
-			(body_styles demorgan)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ASPI-0630LR-100M-T15"
-				(at 6.985 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_ASPI-0630LR_ABR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "ASPI-0630LR-100M-T15"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ASPI-0630LR-100M-T15"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "IND_ASPI-0630LR_ABR IND_ASPI-0630LR_ABR-M IND_ASPI-0630LR_ABR-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ASPI-0630LR-100M-T15_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 1.27)
-					(mid 3.81 2.5344)
-					(end 5.08 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 1.27)
-					(mid 6.35 2.5344)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 1.27)
-					(mid 8.89 2.5344)
-					(end 10.16 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 11.43 2.5344)
-					(end 12.7 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ASPI-0630LR-100M-T15_1_2"
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 11.43)
-					(end -1.27 12.7)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 8.89)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 6.35)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 2.54)
-					(mid -2.5344 3.81)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
@@ -2071,18 +2083,6 @@
 		(uuid "1fa2d37d-3665-4075-b388-d39c3a74b2e3")
 	)
 	(junction
-		(at 130.81 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20ed284d-e9aa-44a4-9a1d-5b9b00940b45")
-	)
-	(junction
-		(at 175.26 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24dc6b95-8fae-4cf6-b437-5ef303b88868")
-	)
-	(junction
 		(at 125.73 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2101,12 +2101,6 @@
 		(uuid "2e89fe3c-07e2-402f-9733-69c904f09a92")
 	)
 	(junction
-		(at 73.66 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2eb9fcc1-535a-4fff-8e97-091856ab2534")
-	)
-	(junction
 		(at 106.68 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2119,22 +2113,34 @@
 		(uuid "47552400-a859-4a9e-8798-49ade909329b")
 	)
 	(junction
-		(at 175.26 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "476deca0-a118-4346-a1ae-6669b6b840f5")
-	)
-	(junction
-		(at 147.32 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dfbf46f-ba83-4fb5-b133-31a11667d111")
-	)
-	(junction
 		(at 217.17 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "736cbe93-e951-4997-97d1-d7c2cd27a54f")
+	)
+	(junction
+		(at 73.66 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "738f0482-bf49-4ee3-a462-2365b5e524e0")
+	)
+	(junction
+		(at 125.73 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a474fd7-fab8-4757-8d37-eec05579084a")
+	)
+	(junction
+		(at 73.66 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c240f00-141a-4765-b94a-1df478b49eb5")
+	)
+	(junction
+		(at 179.07 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d01733e-5820-4d03-9955-bb213f422922")
 	)
 	(junction
 		(at 88.9 104.14)
@@ -2149,22 +2155,16 @@
 		(uuid "9dfd031f-39a0-4c2b-962b-18425280f3d2")
 	)
 	(junction
-		(at 73.66 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e6903c1-3f9c-42b7-b063-9002816bb555")
-	)
-	(junction
 		(at 106.68 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6a97879-f083-4b70-860a-0ddf7cf65d45")
+		(uuid "a75e6d82-4453-4b0f-a21c-44163b078fc3")
 	)
 	(junction
-		(at 125.73 77.47)
+		(at 135.89 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb7e3bfd-7230-412d-b060-f9f63962e295")
+		(uuid "be6f1a96-5c6d-44e9-9250-63979ed5d6f5")
 	)
 	(junction
 		(at 194.31 64.77)
@@ -2185,6 +2185,12 @@
 		(uuid "eb14c4c7-2bf8-4c5c-86f6-0c641fec94a2")
 	)
 	(junction
+		(at 176.53 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5b27a02-a297-4085-b5a5-55fb2a855367")
+	)
+	(junction
 		(at 217.17 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2192,13 +2198,33 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 83.82) (xy 64.77 104.14)
+			(xy 67.31 83.82) (xy 67.31 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01f9dec2-2beb-43e9-9f9d-87fdf8cf5d21")
+	)
+	(wire
+		(pts
+			(xy 73.66 64.77) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fc7634-ebbf-45fe-946c-a7e66d8f6523")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094c3402-df9e-4377-bbe3-1a0cfd1288c4")
 	)
 	(wire
 		(pts
@@ -2212,33 +2238,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 130.81 77.47)
+			(xy 179.07 106.68) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d5d97c7-c981-4a97-a432-d7257bc6307e")
-	)
-	(wire
-		(pts
-			(xy 125.73 64.77) (xy 125.73 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8cb812-120f-482a-a017-1554398a0c8e")
-	)
-	(wire
-		(pts
-			(xy 175.26 64.77) (xy 175.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e22fe75-c9bb-4493-904f-b5e3bba7a62d")
+		(uuid "0e767fe1-b702-42a5-977e-63369fd45a2e")
 	)
 	(wire
 		(pts
@@ -2262,6 +2268,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d08b09-d8f7-4524-9044-b33e8a40936c")
+	)
+	(wire
+		(pts
 			(xy 86.36 86.36) (xy 88.9 86.36)
 		)
 		(stroke
@@ -2269,6 +2285,16 @@
 			(type default)
 		)
 		(uuid "1b55ec51-d129-4f76-87e4-95fa2712f6f9")
+	)
+	(wire
+		(pts
+			(xy 179.07 104.14) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c810025-2e48-42af-a87b-265190f3cbc8")
 	)
 	(wire
 		(pts
@@ -2282,16 +2308,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 130.81 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d6f7fb-0ba6-4218-ad77-19eee8d43ba6")
-	)
-	(wire
-		(pts
 			(xy 217.17 104.14) (xy 194.31 104.14)
 		)
 		(stroke
@@ -2299,6 +2315,16 @@
 			(type default)
 		)
 		(uuid "27f51c17-07c5-4b72-9a7f-13249d77ed29")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8576f4-5f5b-4db8-b730-212c70477921")
 	)
 	(wire
 		(pts
@@ -2322,13 +2348,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 175.26 64.77)
+			(xy 187.96 69.85) (xy 187.96 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a512cb9-f9b1-4351-818a-67ddabf99142")
+		(uuid "3b0351d4-ccda-4770-a2ab-fa9626cd18d0")
 	)
 	(wire
 		(pts
@@ -2342,16 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4461b34f-d763-4ae8-9d44-2155070e7d79")
-	)
-	(wire
-		(pts
 			(xy 209.55 80.01) (xy 194.31 80.01)
 		)
 		(stroke
@@ -2362,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 68.58 81.28)
+			(xy 64.77 81.28) (xy 67.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2408,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 106.68 88.9)
+			(xy 125.73 83.82) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cf6bd3-1a1e-4dc3-aa20-b8550127aa31")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2412,17 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "648f9043-5968-4558-a39f-5b0219c40988")
-	)
-	(wire
-		(pts
-			(xy 130.81 104.14) (xy 147.32 104.14)
+			(xy 125.73 104.14) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 175.26 64.77)
+			(xy 158.75 64.77) (xy 176.53 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2462,13 +2478,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 130.81 104.14)
+			(xy 187.96 80.01) (xy 194.31 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f1c1163-2553-4cc7-a4f2-e88dca85eae4")
+		(uuid "710f4ac4-4d37-4ee5-a914-918be28de245")
 	)
 	(wire
 		(pts
@@ -2479,16 +2495,6 @@
 			(type default)
 		)
 		(uuid "758524a7-8c5b-4be4-9397-3c89d65b8815")
-	)
-	(wire
-		(pts
-			(xy 175.26 83.82) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76b0ccaf-d825-4fbc-bfe1-fcb5dea5359f")
 	)
 	(wire
 		(pts
@@ -2512,6 +2518,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 78.74) (xy 132.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a743f5-5238-444a-b25d-0d14af6812c2")
+	)
+	(wire
+		(pts
 			(xy 143.51 64.77) (xy 125.73 64.77)
 		)
 		(stroke
@@ -2532,23 +2548,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 68.58 64.77)
+			(xy 172.72 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902ea287-93e2-4ac3-90cc-710a19becceb")
+	)
+	(wire
+		(pts
+			(xy 67.31 81.28) (xy 67.31 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9315a440-fc8c-4540-b24b-13cd92b4529d")
-	)
-	(wire
-		(pts
-			(xy 147.32 104.14) (xy 147.32 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94b9bcb6-d8e9-46e4-a70b-eb4408313930")
 	)
 	(wire
 		(pts
@@ -2562,6 +2578,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ee87b9-3a74-42dd-bb10-d453151606b0")
+	)
+	(wire
+		(pts
 			(xy 106.68 64.77) (xy 106.68 71.12)
 		)
 		(stroke
@@ -2572,23 +2598,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 104.14) (xy 73.66 104.14)
+			(xy 67.31 104.14) (xy 73.66 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e9123a3-b3df-4316-87b2-96da95c74b84")
-	)
-	(wire
-		(pts
-			(xy 194.31 80.01) (xy 171.45 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a09f86d8-ac24-4b41-8ac9-534fd634e468")
 	)
 	(wire
 		(pts
@@ -2622,6 +2638,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 81.28) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfdd8a1-e2e0-44de-a43c-2a8f21bd0ebf")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69e93c7-b381-4ee2-8814-523e1b4dc1b2")
+	)
+	(wire
+		(pts
 			(xy 73.66 64.77) (xy 74.93 64.77)
 		)
 		(stroke
@@ -2642,17 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 109.22) (xy 130.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b96d74ff-eef1-49d3-8dcc-c6b09739a416")
-	)
-	(wire
-		(pts
-			(xy 68.58 64.77) (xy 73.66 64.77)
+			(xy 67.31 64.77) (xy 73.66 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2672,13 +2698,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 64.77) (xy 73.66 93.98)
+			(xy 125.73 64.77) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5eba35b-0201-49b8-a50a-cf78d025609b")
+		(uuid "c2efde99-655d-42a7-b4c5-93c2905d239e")
+	)
+	(wire
+		(pts
+			(xy 67.31 83.82) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d049a0e4-478e-4b91-b5ad-a5b438b87709")
 	)
 	(wire
 		(pts
@@ -2692,23 +2728,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 175.26 104.14)
+			(xy 176.53 64.77) (xy 179.07 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d304af45-000d-4bbb-8491-2c06d7149087")
-	)
-	(wire
-		(pts
-			(xy 106.68 78.74) (xy 106.68 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4593f72-024b-45f5-a97a-83bd6517d15c")
+		(uuid "d6e7fe4e-674d-4030-969b-dbb94a44ed89")
 	)
 	(wire
 		(pts
@@ -2722,6 +2748,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 83.82) (xy 176.53 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3ee8e3-af37-49b5-bf82-c995cb6f202d")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda52524-b81d-46b5-abfe-b1d594c419cb")
+	)
+	(wire
+		(pts
 			(xy 194.31 64.77) (xy 194.31 68.58)
 		)
 		(stroke
@@ -2732,13 +2778,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 171.45 76.2)
+			(xy 135.89 106.68) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f26eab29-fc06-4c48-a5e3-b555bca3407a")
+		(uuid "f1cd309f-56d1-48a9-9d8a-26192791838e")
 	)
 	(wire
 		(pts
@@ -2749,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "f2b606ff-d444-4e6d-b79e-330c402c9ac0")
-	)
-	(wire
-		(pts
-			(xy 125.73 77.47) (xy 125.73 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f525f597-ea9d-4304-b08b-afeab300ca4e")
 	)
 	(wire
 		(pts
@@ -2799,6 +2835,36 @@
 			(type default)
 		)
 		(uuid "fcd759ca-c2e7-42e1-9d94-3c7652e73cf6")
+	)
+	(label "OUT_P"
+		(at 234.95 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "743e9160-362f-4f87-9022-9862e262821d")
+	)
+	(label "BAT_P"
+		(at 88.9 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "823a0b58-dd84-4221-9277-6f5e24954494")
+	)
+	(label "SOLAR_P"
+		(at 67.31 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3732b0b-2717-437f-93ba-8174df9dc59f")
 	)
 	(symbol
 		(lib_id "SS14:SS14")
@@ -2999,6 +3065,16 @@
 				(justify bottom)
 			)
 		)
+		(property "Purpose" ""
+			(at 184.15 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "f28b6556-915f-4621-9507-8d72d770571f")
 		)
@@ -3009,6 +3085,98 @@
 			(project "Tiny Solar Power Supply"
 				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ASPI-0630LR-100M-T15:ASPI-0630LR-100M-T15")
+		(at 143.51 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ada014a-264a-4c80-b253-e99b1e726068")
+		(property "Reference" "L1"
+			(at 151.13 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ASPI-0630LR-100M-T15"
+			(at 151.13 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "IND_ASPI-0630LR_ABR"
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "ASPI-0630LR-100M-T15"
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 143.51 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "697ab299-0c0b-429a-9f31-3ad9be9f33cd")
+		)
+		(pin "2"
+			(uuid "ae10cdb2-aa11-4d1f-ad99-76d462635d28")
+		)
+		(instances
+			(project "Tiny Solar Power Supply"
+				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3347,6 +3515,107 @@
 		)
 	)
 	(symbol
+		(lib_id "AP3015AKTR-G1:AP3015AKTR-G1")
+		(at 172.72 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7710c8-f9cf-4b92-8adc-6cffa640e0a2")
+		(property "Reference" "U1"
+			(at 152.4 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AP3015AKTR-G1"
+			(at 152.4 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23-5_1P55X2P9_DIO"
+			(at 172.72 87.122 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "AP3015AKTR-G1"
+			(at 172.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 172.72 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9bc0b728-d7af-404c-85a8-9f94224d38f1")
+		)
+		(pin "2"
+			(uuid "0fef8cd0-4dc1-4abc-bcc7-0138d40c4f52")
+		)
+		(pin "5"
+			(uuid "43e43dea-8a5b-457f-9bff-0ae541046155")
+		)
+		(pin "1"
+			(uuid "c2fac93d-1a05-42a0-8eff-7087515e709e")
+		)
+		(pin "3"
+			(uuid "abbe0149-99d3-476f-aa3b-c37e36885fd3")
+		)
+		(instances
+			(project "Tiny Solar Power Supply"
+				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 240.03 83.82 180)
 		(unit 1)
@@ -3593,88 +3862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Schottky IND_ASPI-0630LR_ABR:ASPI-0630LR-100M-T15")
-		(at 143.51 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78d0a973-4cc9-4e8b-a3c0-624427113395")
-		(property "Reference" "L1"
-			(at 151.13 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ASPI-0630LR-100M-T15"
-			(at 151.13 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ul_ASPI-0630LR-100M-T15:IND_ASPI-0630LR_ABR"
-			(at 143.51 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "ASPI-0630LR-100M-T15"
-			(at 143.51 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bb0c3d4-6b7e-4ab0-9ac6-aca1cbe16411")
-		)
-		(pin "2"
-			(uuid "f4443fb9-fe43-4b5c-b130-0278f60647cb")
-		)
-		(instances
-			(project "Tiny Solar Power Supply"
-				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 81.28 83.82 0)
 		(unit 1)
@@ -3831,84 +4018,6 @@
 			(project "Tiny Solar Power Supply"
 				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 147.32 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c86ac31-f3af-40bf-aa13-f802ace78bde")
-		(property "Reference" "#PWR01"
-			(at 147.32 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 147.32 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5108e091-618d-4345-9fe2-baf530008b59")
-		)
-		(instances
-			(project "Tiny Solar Power Supply"
-				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4375,108 +4484,8 @@
 		)
 	)
 	(symbol
-		(lib_id "AP3015AKTR-G1:AP3015AKTR-G1")
-		(at 130.81 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb725a8d-50a6-46e8-bb86-4fe2d7853a1a")
-		(property "Reference" "U1"
-			(at 152.4 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP3015AKTR-G1"
-			(at 152.4 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ul_AP3015AKTR-G1:SOT23-5_1P55X2P9_DIO"
-			(at 125.984 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "AP3015AKTR-G1"
-			(at 129.794 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" ""
-			(at 130.81 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c219d267-ec66-4505-af31-2a59e088776b")
-		)
-		(pin "3"
-			(uuid "ba8045d0-f203-4c6e-88ec-5bbe184c6567")
-		)
-		(pin "1"
-			(uuid "9bd2a001-8356-4723-a6ae-ff9a622b269d")
-		)
-		(pin "4"
-			(uuid "792ab502-5b20-4858-9e1a-684805167499")
-		)
-		(pin "5"
-			(uuid "bef1449d-e4da-4edb-9123-d6b4142f124f")
-		)
-		(instances
-			(project "Tiny Solar Power Supply"
-				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 130.81 109.22 180)
+		(lib_id "power:GNDD")
+		(at 179.07 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4485,9 +4494,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff290de7-818a-4870-9acd-4ec4f54f3711")
-		(property "Reference" "#FLG01"
-			(at 130.81 111.125 0)
+		(uuid "ed20e000-5688-47c8-8346-ba413a5d924f")
+		(property "Reference" "#PWR01"
+			(at 179.07 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,8 +4506,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 130.81 114.3 0)
+		(property "Value" "GNDD"
+			(at 179.07 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,7 +4517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 109.22 0)
+			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 109.22 0)
+			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,8 +4538,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4541,7 +4550,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "34ad2d75-c4b0-4889-aed9-719cb719d065")
+			(uuid "fd5e5666-1c88-45ba-b65f-a680ab3f2071")
+		)
+		(instances
+			(project "Tiny Solar Power Supply"
+				(path "/987666ea-74b4-4e72-9d90-44f65e1177b3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f86eb21e-76bf-463f-9698-f1374f62e845")
+		(property "Reference" "#FLG01"
+			(at 135.89 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87f85839-f413-48d9-ab2a-2fac42067286")
 		)
 		(instances
 			(project "Tiny Solar Power Supply"
