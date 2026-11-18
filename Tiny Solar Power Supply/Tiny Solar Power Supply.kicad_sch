@@ -3362,7 +3362,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ee4a7a5-1e1b-44a6-9b05-5e4e03a974c5")
 		(property "Reference" "J4"
 			(at 60.325 76.2 0)
@@ -3409,6 +3408,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 59.69 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Short Description" "SOLAR"
+			(at 58.42 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3625,7 +3634,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f2c5aa8-7998-46e9-b407-3a9b8d3dfe4e")
 		(property "Reference" "J1"
 			(at 241.3 81.2799 0)
@@ -3674,6 +3682,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 240.03 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Short Description" "OUT"
+			(at 241.3 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3871,7 +3889,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8afa83ab-847b-495f-bba8-cd650e3d9d31")
 		(property "Reference" "J2"
 			(at 81.915 78.74 0)
@@ -3918,6 +3935,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 81.28 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Short Description" "BAT"
+			(at 91.948 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4197,7 +4224,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6f10149-dbcb-4c64-a361-3f63cbc5141c")
 		(property "Reference" "J3"
 			(at 100.33 59.0549 90)
@@ -4246,6 +4272,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 99.06 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Short Description" "ON/OFF"
+			(at 103.124 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
