@@ -544,7 +544,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "TinySolarPowerSupply_gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
